@@ -10,8 +10,8 @@ komande:
 add amplitude:frequency:offset  
 
 //menja prozorsku funkciju, default vrednost je nema funkcije.  
-function <type>  
-<type> - jedno od none/hanning/hamming  
+function&nbsp;|type|  
+|type| - jedno od none/hanning/hamming  
 
 //izvrsava dft algoritam nad svim sinusoidnim funckcijama sa zadatim parametrima  
 //i trenutno izabranom prozorskom funkcijomi prikazuje to na ekran.  
