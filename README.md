@@ -6,18 +6,18 @@ GUI za prikaz funkcije na ekran.
 
 komande:  
 
-//dodaje novu sinusoidnu funkciju  
+//Dodaje novu sinusoidnu funkciju  
 add amplitude:frequency:offset  
 
-//menja prozorsku funkciju, default vrednost je nema funkcije.  
+//Menja prozorsku funkciju, default vrednost je nema funkcije.  
 function&nbsp;|type|  
 |type| - jedno od none/hanning/hamming  
 
-//izvrsava dft algoritam nad svim sinusoidnim funckcijama sa zadatim parametrima  
+//Izvrsava dft algoritam nad svim sinusoidnim funckcijama sa zadatim parametrima  
 //i trenutno izabranom prozorskom funkcijomi prikazuje to na ekran.  
 makedft start:frame:frequency  
 
-//brise sve funkcije iz liste i resetuje vrednost prozorske  
+//Brise sve funkcije iz liste i resetuje vrednost prozorske  
 //funkcije na "nema funkcije".  
 reset  
 
